@@ -1,0 +1,12 @@
+name = "bizurd-cms_api"
+type = "javascript"
+zone_id = ""
+account_id = ""
+route = ""
+workers_dev = true
+compatibility_date = "2021-12-21"
+
+[build]
+command = "pnpm install && pnpm run build"
+[build.upload]
+format = "service-worker"
